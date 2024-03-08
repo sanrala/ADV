@@ -46,7 +46,7 @@ export default function footer() {
         <h4>Horaires</h4>
         <p>
           <strong>Lundi au Vendredi: 9h</strong> - 17h<br/>
-          Samedi et Dimanche: Fermer
+          Samedi et Dimanche: Fermé
         </p>
       </div>
     </div>

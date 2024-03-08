@@ -19,7 +19,7 @@ export default function About() {
       <div className="container" data-aos="fade-up">
 
         <div className="section-header">
-        <h2>Mes préstations</h2>
+        <h2>Mes prestations</h2>
 
 <p>
 

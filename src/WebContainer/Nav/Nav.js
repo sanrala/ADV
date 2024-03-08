@@ -65,13 +65,13 @@ export default function Nav() {
                 <a href="#book-a-table" className="btn-book-a-table">
                   Contactez-moi
                 </a>
-                <a
+                {/* <a
                   href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                   className="glightbox btn-watch-video d-flex align-items-center"
                 >
                   <img src={facebook} className="facebook" alt="" />
                   <span>Facebook</span>
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
