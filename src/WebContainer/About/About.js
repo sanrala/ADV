@@ -1,5 +1,5 @@
 import React from "react";
-import claire from "../../assets/img/claire2.JPG";
+import claire from "../../assets/img/claire.JPG";
 
 import "../../../src/css/main.css";
 
@@ -28,10 +28,10 @@ export default function About() {
               data-aos="fade-up"
               data-aos-delay="150"
             >
-              <div className="call-us position-absolute">
-                <h4>Qui suis-je ?</h4>
+              {/* <div className="call-us position-absolute"> */}
+                {/* <h4>Qui suis-je ?</h4> */}
                 {/* <p>06 00 00 00 00</p> */}
-              </div>
+              {/* </div> */}
             </div>
             <div
               className="col-lg-5 d-flex align-items-end"
@@ -39,6 +39,7 @@ export default function About() {
               data-aos-delay="300"
             >
               <div className="content ps-0 ps-lg-5">
+              <h4>Qui suis-je ?</h4>
                 <p className="fst-italic">
                   Titulaire d’un BTS Action Commerciale en 2004, je dispose de
                   plus de 15 ans d’expérience professionnelle en tant
