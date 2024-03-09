@@ -13,11 +13,12 @@ const Ul = styled.ul`
   @media (max-width: 1279px) {
     flex-flow: column nowrap;
     background-color: white;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    border-left: 1px solid #666;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
+    
     height: 100vh;
     width: 300px;
     padding-top: 3.5rem;
@@ -31,7 +32,7 @@ const Ul = styled.ul`
 
 const RightNav = ({ open }) => {
   return (
-    <Ul open={open}>
+    <Ul  open={open}>
       <li>Accueil</li>
       <li>Présentation</li>
       <li>Prestations</li>

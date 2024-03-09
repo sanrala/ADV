@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import logo from "../../assets/img/logo_ADV.png";
 import main from "../../assets/img/main.jpg";
 import Burger from './Burger';
@@ -14,22 +14,7 @@ import "../../assets/vendor/swiper/swiper-bundle.min.css";
 export default function Nav() {
   AOS.init();
 
-  const [isActive, setActive] = useState("false");
-
-  const handleToggle = () => {
-    setActive(!isActive);
-  };
-
-  const [isOpen, setOpen] = useState("false");
-
-  const handleToggleOpen = () => {
-    setOpen(!isOpen);
-  };
-  const [isOpenMenu, setOpenMenu] = useState("false");
-
-  const handleToggleOpenMenu = () => {
-    setOpenMenu(!isOpenMenu);
-  };
+  
 
 
   return (

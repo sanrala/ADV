@@ -603,6 +603,7 @@ section {
   font-size: 28px;
   font-weight: 700;
   color: var(--color-primary);
+  text-align: justify;
 }
 
 .about .content ul {
@@ -626,7 +627,9 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.content {
+  text-align: justify;
+}
 .about .play-btn  {
   width: 94px;
   height: 94px;

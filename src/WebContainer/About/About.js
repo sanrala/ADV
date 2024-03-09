@@ -38,16 +38,16 @@ export default function About() {
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              <div className="content ps-0 ps-lg-5">
-              <h4>Qui suis-je ?</h4>
-                <p className="fst-italic">
+              <div className="content ps-0 ps-lg-5" >
+              <h4>Mon parcours</h4>
+                <p >
                   Titulaire d’un BTS Action Commerciale en 2004, je dispose de
                   plus de 15 ans d’expérience professionnelle en tant
                   qu’Assistante Administrative et Commerciale. La relation
                   client et l’Administration Des Ventes (devis, commandes,
                   facturation) sont des missions régulières qui m’ont été
                   demandées lors de mon parcours professionnel. J’ai travaillé
-                  essentiellement dans :   
+                  dans différents secteurs d'activités :   
                  
                 </p>
                 <ul >
@@ -56,10 +56,10 @@ export default function About() {
                   matériaux de construction,
                   </li>
                   <li>
-                    <i className="bi bi-check2-all"></i> Fabriquant des portails,
+                    <i className="bi bi-check2-all"></i> Des fabriquants de portails,
                   </li>
                   <li>
-                    <i className="bi bi-check2-all"></i>  Des matelas isolants industriels.
+                    <i className="bi bi-check2-all"></i> Un fabricant de matelas isolants industriels.
                   </li>
                 </ul>
                 <p>
