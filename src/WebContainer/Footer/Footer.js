@@ -17,19 +17,19 @@ export default function footer() {
 
 <div className="container">
   <div className="row gy-3">
-    <div className="col-lg-3 col-md-6 d-flex">
+    <div className="col-lg-3 col-md-6 d-flex justify-content-center">
       <i className="bi bi-geo-alt icon"></i>
       <div>
         <h4>Adresse</h4>
         <p>
           
-          62470 CAMBLAIN-CHATELAIN - FRANCE<br/>
+          62470 CAMBLAIN-CHATELAIN <br/> FRANCE<br/>
         </p>
       </div>
 
     </div>
 
-    <div className="col-lg-3 col-md-6 footer-links d-flex">
+    <div className="col-lg-3 col-md-6 footer-links d-flex justify-content-center">
       <i className="bi bi-telephone icon"></i>
       <div>
         <h4>Contact</h4>
@@ -40,10 +40,10 @@ export default function footer() {
       </div>
     </div>
 
-    <div className="col-lg-3 col-md-6 footer-links d-flex">
+    <div className="col-lg-3 col-md-6 footer-links d-flex justify-content-center">
       <i className="bi bi-clock icon"></i>
-      <div>
-        <h4>Horaires</h4>
+      <div >
+      <h4>Horaires</h4>
         <p>
           <strong>Lundi au Vendredi: 9h</strong> - 17h<br/>
           Samedi et Dimanche: Fermé
@@ -51,16 +51,18 @@ export default function footer() {
       </div>
     </div>
 
-    <div className="col-lg-3 col-md-6 footer-links">
+    <div className="col-lg-3 col-md-6 footer-links d-flex justify-content-center">
+    <i class="bi bi-hand-thumbs-up icon"></i>
+    <div>
       <h4>Suivez moi</h4>
-      <div className="social-links d-flex">
-        <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
+      <div className="social-links d-flex  justify-content-center">
+        
         <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
         <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
         <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
       </div>
     </div>
-
+    </div>
   </div>
 </div>
 
