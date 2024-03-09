@@ -52,7 +52,7 @@ export default function footer() {
     </div>
 
     <div className="col-lg-3 col-md-6 footer-links d-flex justify-content-center">
-    <i class="bi bi-hand-thumbs-up icon"></i>
+    <i className="bi bi-hand-thumbs-up icon"></i>
     <div>
       <h4>Suivez moi</h4>
       <div className="social-links d-flex  justify-content-center">

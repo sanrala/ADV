@@ -5,6 +5,7 @@ import About from "./WebContainer/About/About";
 import Avantage from "./WebContainer/Avantage/Avantage";
 import Presta from "./WebContainer/Presta/Presta";
 import Footer from "./WebContainer/Footer/Footer";
+import Contact from "./WebContainer/Contact/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Avantage />
         <Presta />
+        <Contact />
       </main>
       <Footer />
     </div>

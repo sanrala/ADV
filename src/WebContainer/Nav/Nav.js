@@ -1,16 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/img/logo_ADV.png";
 import main from "../../assets/img/main.jpg";
-import facebook from "../../assets/img/facebook.png";
+import Burger from './Burger';
 import "../../../src/css/main.css";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "../../assets/vendor/animate.css/animate.min.css";
 import "../../assets/vendor/bootstrap/css/bootstrap.min.css";
 import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css";
 
-// import "../../assets/vendor/swiper/swiper-bundle.min.css";
+import "../../assets/vendor/swiper/swiper-bundle.min.css";
 
 export default function Nav() {
+  AOS.init();
+
+  const [isActive, setActive] = useState("false");
+
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
+
+  const [isOpen, setOpen] = useState("false");
+
+  const handleToggleOpen = () => {
+    setOpen(!isOpen);
+  };
+  const [isOpenMenu, setOpenMenu] = useState("false");
+
+  const handleToggleOpenMenu = () => {
+    setOpenMenu(!isOpenMenu);
+  };
+
+
   return (
     <div>
       <header
@@ -23,7 +44,6 @@ export default function Nav() {
             className="logo d-flex align-items-center me-auto me-lg-0"
           >
             <img src={logo} alt="ADV-Bureautique-solutions" />
-            {/* <h5>Bureautique & Solutions<span>.</span></h5> */}
           </a>
 
           <nav id="navbar" className="navbar">
@@ -45,9 +65,9 @@ export default function Nav() {
               </li>
             </ul>
           </nav>
-
-          <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-          <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+          <Burger />
+          {/* <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+          <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i> */}
         </div>
       </header>
       <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -66,13 +86,7 @@ export default function Nav() {
                 <a href="#book-a-table" className="btn-book-a-table">
                   Contactez-moi
                 </a>
-                {/* <a
-                  href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                  className="glightbox btn-watch-video d-flex align-items-center"
-                >
-                  <img src={facebook} className="facebook" alt="" />
-                  <span>Facebook</span>
-                </a> */}
+        
               </div>
             </div>
             <div className="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
@@ -87,8 +101,7 @@ export default function Nav() {
           </div>
         </div>
       </section>
-
-      {/* <!-- End Header --> */}
     </div>
   );
+  
 }
