@@ -47,19 +47,19 @@ export default function About() {
                   client et l’Administration Des Ventes (devis, commandes,
                   facturation) sont des missions régulières qui m’ont été
                   demandées lors de mon parcours professionnel. J’ai travaillé
-                  essentiellement dans   
+                  essentiellement dans :   
                  
                 </p>
-                <ul>
+                <ul >
                   <li>
-                    <i className="bi bi-check2-all"></i> des entreprises commercialisant des
+                    <i className="bi bi-check2-all"></i> Des entreprises commercialisant <br /> des
                   matériaux de construction,
                   </li>
                   <li>
-                    <i className="bi bi-check2-all"></i> fabriquant des portails,
+                    <i className="bi bi-check2-all"></i> Fabriquant des portails,
                   </li>
                   <li>
-                    <i className="bi bi-check2-all"></i>  des matelas isolants industriels.
+                    <i className="bi bi-check2-all"></i>  Des matelas isolants industriels.
                   </li>
                 </ul>
                 <p>

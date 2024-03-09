@@ -56,7 +56,9 @@ h5,
 h6 {
   font-family: var(--font-secondary);
 }
-
+li {
+  list-style-type: none
+}
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -269,7 +271,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 80px;
+  max-height: 75px;
   margin-right: 6px;
 }
 
@@ -709,8 +711,9 @@ section {
 --------------------------------------------------------------*/
 .why-us .why-box {
   padding: 30px;
-  background: var(--color-primary);
-  color: #fff;
+  /* background: var(--color-primary); */
+  border: solid 1px var(--color-primary) ;
+  /* color: #fff; */
 }
 
 .why-us .why-box h3 {
@@ -1081,13 +1084,18 @@ section {
 /*--------------------------------------------------------------
 # Chefs Section
 --------------------------------------------------------------*/
-.chefs .chef-member {
+.chefs 
+.chef-member 
+{
   overflow: hidden;
-  text-align: center;
+  /* text-align: center; */
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
   transition: 0.3s;
+}
+ h4 {
+  text-align: center;
 }
 
 .chefs .chef-member .member-img {

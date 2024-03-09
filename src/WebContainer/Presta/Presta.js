@@ -44,12 +44,13 @@ export default function About() {
               <div className="member-info">
                 <h4>ADV / commercial</h4>
                 {/* <span></span> */}
+                <div className=" d-flex flex-column align-items-start">
                 <p> <i className="bi bi-check2-all text-danger"></i> Devis / Propositions commerciales </p>
                 <p> <i className="bi bi-check2-all text-danger"></i> Saisie et suivi de commandes de vente </p>
                 <p> <i className="bi bi-check2-all text-danger"></i> Préparation de petits colis - Facturation</p>
                 <p>  <i className="bi bi-check2-all text-danger"></i> Recouvrement des factures - Relances devis</p>
                   </div>
-            </div>
+            </div> </div>
           </div>
 
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
@@ -63,15 +64,17 @@ export default function About() {
                   <a href=""><i className="bi bi-linkedin"></i></a>
                 </div> */}
               </div>
-              <div className="member-info">
+              <div className="member-info ">
                 <h4>Achats</h4>
                 {/* <span></span> */}
+                <div className=" d-flex flex-column align-items-start">
                 <p> <i className="bi bi-check2-all text-danger"></i> Passage et suivi des commandes fournisseurs </p>
-                <p> <i className="bi bi-check2-all text-danger"></i> approchement
-                  bon de commande <br /> bon de livraison <br /> facture </p>
-                <p> <i className="bi bi-check2-all text-danger"></i> Préparation des
-                  paiements</p>
+                
+                <p> <i className="bi bi-check2-all text-danger"></i> Rapprochement bon de commande -> bon de livraison -> facture </p>
                
+               <p> <i className="bi bi-check2-all text-danger"></i> Préparation des paiements</p>
+              
+                  </div>
               </div>
             </div>
           </div>
@@ -86,15 +89,16 @@ export default function About() {
                   <a href=""><i className="bi bi-linkedin"></i></a>
                 </div> */}
               </div>
-              <div className="member-info">
+              <div className="member-info" >
                 <h4>Administratif</h4>
                 {/* <span></span> */}
+                <div className=" d-flex flex-column align-items-start">
                 <p> <i className="bi bi-check2-all text-danger"></i> Frappe de courriers administratifs </p>
                 <p> <i className="bi bi-check2-all text-danger"></i> Gestion du courrier </p>
                 <p> <i className="bi bi-check2-all text-danger"></i> Classement et archivage, <br /> numérisation et impression de
                   documents </p>
                 <p> <i className="bi bi-check2-all text-danger"></i> Gestion de vos appels entrants / sortants </p>
-             
+                </div>
               </div>
             </div>
           </div>

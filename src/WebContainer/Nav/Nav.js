@@ -23,6 +23,7 @@ export default function Nav() {
             className="logo d-flex align-items-center me-auto me-lg-0"
           >
             <img src={logo} alt="ADV-Bureautique-solutions" />
+            {/* <h5>Bureautique & Solutions<span>.</span></h5> */}
           </a>
 
           <nav id="navbar" className="navbar">
