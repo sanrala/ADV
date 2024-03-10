@@ -12,20 +12,20 @@ import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css";
 export default function Avantage() {
   return (
     <div>
-      <section id="why-us" className="why-us section-bg">
+      <section id="Avantages" className="why-us section-bg">
         <div className="container" data-aos="fade-up">
         <div className="section-header">
         <h2>Avantages :</h2>
 
 <p>
 
-Faire appel à ADV <span>Bureautique &amp; Solutions</span> peut vous apporter :
+Faire appel à ADV <span>Bureautique &amp; Solutions</span> peut vous apporter gain de temps et d'energie :
 </p>
         </div>
           <div className="row gy-4">
-            <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            {/* <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
               <div className="why-box">
-                {/* <h3>Avantages :</h3> */}
+               
                 <p>
                   La gestion administrative de votre entreprise vous prend de
                   plus en plus de temps ? Vous n’avez pas la possibilité ou la
@@ -35,25 +35,40 @@ Faire appel à ADV <span>Bureautique &amp; Solutions</span> peut vous apporter 
                   Faites appel à ADV Bureautique &amp; Solutions !
                 </p>
                 <div className="text-center">
-                  {/* <a href="#" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a> */}
+                  {/* <a href="#" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a> 
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-8 d-flex align-items-center">
-              <div className="row gy-4">
+            <div className="col-lg-12 d-flex align-items-center justify-content-around ">
+              <div className="row gy-4 ">
                 <div
-                  className="col-xl-4"
+                  className="col-xl-4 "
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
-                  <div className="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <div className="icon-box ">
+                   <div className=" d-flex flex-column justify-content-center align-items-center">
                     <i className="bi bi-clipboard-data"></i>
-                    {/* <h4>AVANTAGE 1</h4> */}
+                    <h4>Gain de temps :</h4>
+                    </div>
+                    <div className=" d-flex flex-column  align-items-start" >
                     <p>
-                      Pas de salarié à gérer = pas de charges salariales, pas de
-                      congés à payer = gain de temps et d’énergie.
+                    <i  className="bi bi-check2-all text-danger"></i> Pour vous libérer de vos tâches administratives.
                     </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> En cas de surcroît d'activité.
+                    </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> Pour un remplacement de congés ou d'arrêt maladie.
+                    </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> Pour vous recentrer sur votre coeur de métier.
+                    </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> Pour des journées de travail allégées.
+                    </p>
+                    </div>
                   </div>
                 </div>
 
@@ -62,12 +77,24 @@ Faire appel à ADV <span>Bureautique &amp; Solutions</span> peut vous apporter 
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  <div className="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <div className="icon-box ">
+                  <div className=" d-flex flex-column justify-content-center align-items-center">
                     <i className="bi bi-gem"></i>
-                    {/* <h4>AVANTAGE 2</h4> */}
+                    <h4>Réduction des coûts :</h4></div>
                     <p>
-                      Réduction des coûts = vous ne payez que le travail
-                      effectué = pas d’investissement matériel.
+                    <i  className="bi bi-check2-all text-danger"></i> Pas de charges salariales.
+                    </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> Pas de congés payés.
+                    </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> Pas de formalités d'embauche.
+                    </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> Vous ne payez que le travail effectué.
+                    </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> Pas d'investissement matériel.
                     </p>
                   </div>
                 </div>
@@ -77,14 +104,23 @@ Faire appel à ADV <span>Bureautique &amp; Solutions</span> peut vous apporter 
                   data-aos="fade-up"
                   data-aos-delay="400"
                 >
-                  <div className="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <div className="icon-box ">
+                  <div className="  d-flex flex-column justify-content-center align-items-center">
                     <i className="bi bi-inboxes"></i>
-                    {/* <h4>AVANTAGE 3</h4> */}
+                    <h4  >Flexibilité :</h4></div>
                     <p>
-                      Flexibilité = pas d’engagement de durée = disponibilité
-                      selon vos besoins, notamment en cas d’accroissement de
-                      travail ponctuel.
+                    <i  className="bi bi-check2-all text-danger"></i> Pas d'engagement de durée.
                     </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> Disponibilité selon vos besoins.
+                    </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> A distance ou dans vos locaux.
+                    </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> Services à la carte.
+                    </p>
+                
                   </div>
                 </div>
               </div>

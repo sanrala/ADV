@@ -12,7 +12,7 @@ import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css";
 export default function About() {
   return (
     <div>
-      <section id="about" className="about">
+      <section id="Présentation" className="about">
         <div className="container" data-aos="fade-up">
           <div className="section-header">
             <h2>Présentation</h2>
@@ -44,7 +44,7 @@ export default function About() {
                   Titulaire d’un BTS Action Commerciale en 2004, je dispose de
                   plus de 15 ans d’expérience professionnelle en tant
                   qu’Assistante Administrative et Commerciale. La relation
-                  client et l’Administration Des Ventes (devis, commandes,
+                  client et l’administration des ventes (devis, commandes,
                   facturation) sont des missions régulières qui m’ont été
                   demandées lors de mon parcours professionnel. J’ai travaillé
                   dans différents secteurs d'activités :   

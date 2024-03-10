@@ -17,12 +17,12 @@ export default function Contact() {
       };
   return (
     <div>
-   <section id="contact" className="contact section-bg">
+   <section id="Contact" className="contact section-bg">
       <div className="container" data-aos="fade-up">
 
         <div className="section-header">
           <h2>Contact</h2>
-          <p>Besoin d'aide ? <span>Contactez-nous</span></p>
+          <p>Et si nous collaborions ensemble ? <span>Contactez-moi</span></p>
         </div>
 
         <div className="mb-3">
@@ -35,7 +35,7 @@ export default function Contact() {
         allowFullScreen=""
         aria-hidden="false"
         tabIndex="0"
-        title="Humanity First Indonesia"
+        title="ADV BUREAUTIQUE ET SOLUTIONS"
         ></iframe>
 {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40625.04679222136!2d2.4103174193787895!3d50.47712572865548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd1064c9458dc7%3A0x40af13e8163f8e0!2sCamblain-Ch%C3%A2telain!5e0!3m2!1sfr!2sfr!4v1710008604191!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
         </div>

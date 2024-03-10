@@ -15,7 +15,7 @@ export default function About() {
   return (
     <div>
    
-    <section id="chefs" className="chefs ">
+    <section id="Prestations" className="chefs ">
       <div className="container" data-aos="fade-up">
 
         <div className="section-header">
@@ -46,9 +46,11 @@ export default function About() {
                 {/* <span></span> */}
                 <div className=" d-flex flex-column align-items-start">
                 <p> <i className="bi bi-check2-all text-danger"></i> Devis / Propositions commerciales </p>
+                <p>  <i className="bi bi-check2-all text-danger"></i> Relances devis</p>
                 <p> <i className="bi bi-check2-all text-danger"></i> Saisie et suivi de commandes de vente </p>
-                <p> <i className="bi bi-check2-all text-danger"></i> Préparation de petits colis - Facturation</p>
-                <p>  <i className="bi bi-check2-all text-danger"></i> Recouvrement des factures - Relances devis</p>
+                <p> <i className="bi bi-check2-all text-danger"></i> Préparation de petits colis </p>
+                <p> <i className="bi bi-check2-all text-danger"></i> Facturation</p>
+                <p>  <i className="bi bi-check2-all text-danger"></i> Recouvrement des factures </p>
                   </div>
             </div> </div>
           </div>
@@ -68,9 +70,9 @@ export default function About() {
                 <h4>Achats</h4>
                 {/* <span></span> */}
                 <div className=" d-flex flex-column align-items-start">
-                <p> <i className="bi bi-check2-all text-danger"></i> Passage et suivi des commandes fournisseurs </p>
+                <p> <i className="bi bi-check2-all text-danger"></i> Commandes fournisseurs </p>
                 
-                <p> <i className="bi bi-check2-all text-danger"></i> Rapprochement bon de commande -> bon de livraison -> facture </p>
+                <p> <i className="bi bi-check2-all text-danger"></i> Rapprochement bons de commande / bons de livraison / factures </p>
                
                <p> <i className="bi bi-check2-all text-danger"></i> Préparation des paiements</p>
               
@@ -94,9 +96,9 @@ export default function About() {
                 {/* <span></span> */}
                 <div className=" d-flex flex-column align-items-start">
                 <p> <i className="bi bi-check2-all text-danger"></i> Frappe de courriers administratifs </p>
-                <p> <i className="bi bi-check2-all text-danger"></i> Gestion du courrier </p>
-                <p> <i className="bi bi-check2-all text-danger"></i> Classement et archivage, <br /> numérisation et impression de
-                  documents </p>
+                <p> <i className="bi bi-check2-all text-danger"></i> Gestion du courrier et de la boîte mail </p>
+                <p> <i className="bi bi-check2-all text-danger"></i> Classement et archivage</p>
+                <p> <i className="bi bi-check2-all text-danger"></i> Numérisation et impression de documents </p>
                 <p> <i className="bi bi-check2-all text-danger"></i> Gestion de vos appels entrants / sortants </p>
                 </div>
               </div>

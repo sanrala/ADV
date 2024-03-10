@@ -40,6 +40,9 @@ export default function Nav() {
                 <a href="#Présentation">Présentation</a>
               </li>
               <li>
+                <a href="#Avantages">Avantages</a>
+              </li>
+              <li>
                 <a href="#Prestations">Prestations</a>
               </li>
               <li>
@@ -57,7 +60,7 @@ export default function Nav() {
       </header>
       <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <section id="hero" className="hero d-flex align-items-center section-bg">
+      <section id="Accueil" className="hero d-flex align-items-center section-bg">
         <div className="container">
           <div className="row justify-content-between gy-5">
             <div className="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">

@@ -27,18 +27,63 @@ const Ul = styled.ul`
     li {
       color: #7f7f90;
     }
+     a,
+   a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-family: #37373f;
+    font-size: 16px;
+    font-weight: 600;
+    color: #7f7f90;
+    white-space: nowrap;
+    transition: 0.3s;
+    position: relative;
+    text-decoration: none;
+  }
+
+
+   a:hover:before,
+   li:hover>a:before,
+  .active:before {
+    visibility: visible;
+    width: 100%;
+  }
+   a:hover,
+   .active,
+   .active:focus,
+  li:hover>a {
+    color: #000;
+  }
+
   }
 `;
 
 const RightNav = ({ open }) => {
   return (
+    <div className='burgerNav' >
     <Ul  open={open}>
-      <li>Accueil</li>
-      <li>Présentation</li>
-      <li>Prestations</li>
-      <li>Tarifs</li>
-      <li>Contact</li>
+  <li>
+                <a href="#Accueil">Accueil</a>
+              </li>
+              <li>
+                <a href="#Présentation">Présentation</a>
+              </li>
+              <li>
+                <a href="#Avantages">Avantages</a>
+              </li>
+              <li>
+                <a href="#Prestations">Prestations</a>
+              </li>
+              <li>
+                <a href="#Tarifs">Tarifs</a>
+              </li>
+              <li>
+                <a href="#Contact">Contact</a>
+              </li>
     </Ul>
+    </div>
   )
 }
 

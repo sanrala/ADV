@@ -624,6 +624,8 @@ section {
   color: var(--color-primary);
 }
 
+
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -761,7 +763,7 @@ section {
 }
 
 .why-us .icon-box {
-  text-align: center;
+  /* text-align: center; */
   background: #fff;
   padding: 40px 30px;
   width: 100%;
@@ -770,7 +772,7 @@ section {
   transition: 0.3s;
 }
 
-.why-us .icon-box i {
+.why-us .icon-box .bi-clipboard-data, .bi-gem, .bi-inboxes {
   color: var(--color-primary);
   margin-bottom: 30px;
   font-size: 32px;
@@ -791,7 +793,7 @@ section {
   font-family: var(--font-secondary);
 }
 
-.why-us .icon-box p {
+.why-us .icon-box p, li {
   font-size: 15px;
   color: #6c757d;
 }
