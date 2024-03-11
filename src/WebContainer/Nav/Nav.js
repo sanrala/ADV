@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import logo from "../../assets/img/logo_ADV.png";
 import main from "../../assets/img/main.jpg";
 import Burger from "./Burger";
@@ -11,60 +11,66 @@ import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css";
 
 import "../../assets/vendor/swiper/swiper-bundle.min.css";
 
-import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 
 function MyVerticallyCenteredModal(props) {
   return (
-    <Modal 
+    <Modal
       {...props}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header  closeButton>
-        <Modal.Title id="contained-modal-title-vcenter" >
-          Tarifs
-        </Modal.Title>
+      <Modal.Header closeButton>
+        <Modal.Title  id="contained-modal-title-vcenter">Tarifs</Modal.Title>
       </Modal.Header>
-      <Modal.Body  >
+      <Modal.Body className=" section-bg">
         {/* <h4>Tarifs</h4> */}
-        <div className="  d-flex flex-column  align-items-start" >
-                    <p>
-                    <i  className=" bi bi-check2-all text-danger"></i> A distance : 30€ HT/h*.
-                    </p>
-                    <p>
-                    <i  className="bi bi-check2-all text-danger"></i> Sur site : 30€ HT/h + 0.66€ /Km*.
-                    </p>
-                    <p className="bonus section-bg">
-     Offre de bienvenue: 10% de remise sur votre première facture.
-                    </p>
-                    <p className="bonus section-bg">
-     Offre de parrainage: 10% de remise pour vous sur votre prochaine facture et 10% pour votre filleul sur sa première facture.
-                    </p >
-                    </div>
-                    <p className="maj">
-     *Majoration de 25% si prestations urgentes réalisées le soir après 18h30 pour le lendemain ainsi que pour toute prestation 
-     effectuée le Samedi <br />
-     Majoration de 50% pour tout travail effectué le dimanche et jours fériés.
-                    </p>
+        <div className="do d-flex flex-column  align-items-start">
+          <p>
+            <i className=" bi bi-check2-all text-danger"></i> A distance : 30€
+            HT/h*.
+          </p>
+          <p>
+            <i className="bi bi-check2-all text-danger"></i> Sur site : 30€ HT/h
+            + 0.66€ /Km*.
+          </p>
+          <div className="gift">
+            <p className="bonus ">
+              <i class="gift bi bi-gift text-danger"></i>
+              Offre de bienvenue: 10% de remise sur votre première facture.
+            </p>
+          </div>
+          <div className="gift">
+            <p className="bonus ">
+              <i class="gift bi bi-gift text-danger"></i>
+              Offre de parrainage: 10% de remise pour vous sur votre prochaine
+              facture et 10% pour votre filleul sur sa première facture.
+            </p>
+          </div>
+        </div>
+        <p className="maj">
+          *Majoration de 25% si prestations urgentes réalisées le soir après
+          18h30 pour le lendemain ainsi que pour toute prestation effectuée le
+          Samedi <br />
+          Majoration de 50% pour tout travail effectué le dimanche et jours
+          fériés.
+        </p>
       </Modal.Body>
- 
-      <Modal.Footer className="section-bg" >
-        {/* <Button className="btn-book-a-table" onClick={props.onHide}>Close</Button> */}
+
+      <Modal.Footer className="section-bg">
+        <Button className="bg-danger" onClick={props.onHide}>Fermer</Button>
       </Modal.Footer>
     </Modal>
   );
 }
 
-
 export default function Nav() {
   AOS.init();
 
-
   const [modalShow, setModalShow] = React.useState(false);
-
 
   return (
     <div>
@@ -94,23 +100,25 @@ export default function Nav() {
               <li>
                 <a href="#Prestations">Prestations</a>
               </li>
-              
+
               <li>
-              
-                <a href="#Tarifs" variant="primary" onClick={() => setModalShow(true)}>
-                  Tarifs </a>
-  
+                <a
+                  href="#Tarifs"
+                  variant="primary"
+                  onClick={() => setModalShow(true)}
+                >
+                  Tarifs{" "}
+                </a>
               </li>
               <MyVerticallyCenteredModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+              />
               <li>
                 <a href="#Contact">Contact</a>
               </li>
             </ul>
           </nav>
-
 
           <Burger />
           {/* <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>

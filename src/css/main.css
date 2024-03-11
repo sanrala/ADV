@@ -115,6 +115,8 @@ section {
   }
 }
 
+
+
 .breadcrumbs h2 {
   font-size: 24px;
   font-weight: 400;
@@ -271,7 +273,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 75px;
+  max-height: 60px;
   margin-right: 6px;
 }
 
@@ -1955,8 +1957,21 @@ section {
 .bonus { 
   border: solid 1px #dee2e6;
   padding: 30px;
+  background-color: white;
+ max-width: 600px;
+}
+
+.gift {
+  margin: 20px;
 }
 
 .maj {
  font-size: 10px;
+}
+.tar p {
+  font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
 }

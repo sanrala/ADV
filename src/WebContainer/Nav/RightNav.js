@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-
+import "../../css/main.css"
 const Ul = styled.ul`
   list-style: none;
   display: none;
@@ -75,26 +75,38 @@ function MyVerticallyCenteredModal(props) {
           Tarifs
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body  >
+      <Modal.Body className="section-bg" >
         {/* <h4>Tarifs</h4> */}
-        <div className=" d-flex flex-column  align-items-start" >
-                    <p>
-                    <i  className="bi bi-check2-all text-danger"></i> A distance : 30€ HT/h*.
-                    </p>
-                    <p>
-                    <i  className="bi bi-check2-all text-danger"></i> Sur site : 30€ HT/h + 0.66€ /Km*.
-                    </p>
-                    <p className="bonus">
-     Offre de bienvenue: 10% de remise sur votre première facture.
-                    </p>
-                    <p className="bonus">
-     Offre de parrainage: 10% de remise pour vous sur votre prochaine facture et 10% pour votre filleul sur sa première facture.
-                    </p >
-                    </div>
-                    <p>
-     *Majoration de 25% si prestations urgentes réalisées le soir après 18h30 pour le lendemain ainsi que pour toute prestation 
-     effectuée le Samedi; Majoration de 50% pour tout travail effectué le dimanche et jours fériés.
-                    </p>
+        <div className="do d-flex flex-column  align-items-start">
+          <p>
+            <i className=" bi bi-check2-all text-danger"></i> A distance : 30€
+            HT/h*.
+          </p>
+          <p>
+            <i className="bi bi-check2-all text-danger"></i> Sur site : 30€ HT/h
+            + 0.66€ /Km*.
+          </p>
+          <div className="gift">
+            <p className="bonus ">
+              <i class="gift bi bi-gift text-danger"></i>
+              Offre de bienvenue: 10% de remise sur votre première facture.
+            </p>
+          </div>
+          <div className="gift">
+            <p className="bonus ">
+              <i class="gift bi bi-gift text-danger"></i>
+              Offre de parrainage: 10% de remise pour vous sur votre prochaine
+              facture et 10% pour votre filleul sur sa première facture.
+            </p>
+          </div>
+        </div>
+        <p className="maj">
+          *Majoration de 25% si prestations urgentes réalisées le soir après
+          18h30 pour le lendemain ainsi que pour toute prestation effectuée le
+          Samedi <br />
+          Majoration de 50% pour tout travail effectué le dimanche et jours
+          fériés.
+        </p>
       </Modal.Body>
     
   
