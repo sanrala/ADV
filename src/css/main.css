@@ -345,6 +345,8 @@ section {
     text-decoration: none;
   }
 
+  
+
   .navbar a i,
   .navbar a:focus i {
     font-size: 12px;
@@ -1948,4 +1950,13 @@ section {
   top: 10px;
   transform: rotate(-135deg);
   opacity: 0.9;
+}
+
+.bonus { 
+  border: solid 1px #dee2e6;
+  padding: 30px;
+}
+
+.maj {
+ font-size: 10px;
 }

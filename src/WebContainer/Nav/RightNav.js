@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 const Ul = styled.ul`
   list-style: none;
@@ -60,7 +62,54 @@ const Ul = styled.ul`
   }
 `;
 
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal 
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header  closeButton>
+        <Modal.Title id="contained-modal-title-vcenter" >
+          Tarifs
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body  >
+        {/* <h4>Tarifs</h4> */}
+        <div className=" d-flex flex-column  align-items-start" >
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> A distance : 30€ HT/h*.
+                    </p>
+                    <p>
+                    <i  className="bi bi-check2-all text-danger"></i> Sur site : 30€ HT/h + 0.66€ /Km*.
+                    </p>
+                    <p className="bonus">
+     Offre de bienvenue: 10% de remise sur votre première facture.
+                    </p>
+                    <p className="bonus">
+     Offre de parrainage: 10% de remise pour vous sur votre prochaine facture et 10% pour votre filleul sur sa première facture.
+                    </p >
+                    </div>
+                    <p>
+     *Majoration de 25% si prestations urgentes réalisées le soir après 18h30 pour le lendemain ainsi que pour toute prestation 
+     effectuée le Samedi; Majoration de 50% pour tout travail effectué le dimanche et jours fériés.
+                    </p>
+      </Modal.Body>
+    
+  
+               
+   
+   
+      <Modal.Footer className="section-bg" >
+        {/* <Button className="btn-book-a-table" onClick={props.onHide}>Close</Button> */}
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 const RightNav = ({ open }) => {
+  const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className='burgerNav' >
     <Ul  open={open}>
@@ -77,7 +126,12 @@ const RightNav = ({ open }) => {
                 <a href="#Prestations">Prestations</a>
               </li>
               <li>
-                <a href="#Tarifs">Tarifs</a>
+                <a href="#Tarifs" variant="primary" onClick={() => setModalShow(true)}>Tarifs</a>
+             
+                <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
               </li>
               <li>
                 <a href="#Contact">Contact</a>
