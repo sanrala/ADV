@@ -1690,6 +1690,7 @@ section {
 
 .footer .credits a {
   color: #fff;
+  text-decoration: none;
 }
 
 .navbar-default {
