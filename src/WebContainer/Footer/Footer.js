@@ -15,9 +15,9 @@ export default function footer() {
     <div>
 <footer id="footer" className="footer">
 
-<div className="container">
+<div className="container " >
   <div className="row gy-3">
-    <div className="col-lg-3 col-md-6 d-flex justify-content-center">
+    <div className="col-lg-3 col-md-6 d-flex justify-content-center ">
       <i className="bi bi-geo-alt icon"></i>
       <div>
         <h4>Adresse</h4>

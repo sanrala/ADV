@@ -24,10 +24,14 @@ export default function About() {
           <div className="row gy-4">
             <div
               className="col-lg-7 position-relative about-img"
-              style={{ backgroundImage: `url(${claire})` }}
+              // style={{ backgroundImage: `url(${claire})` }}
               data-aos="fade-up"
               data-aos-delay="150"
             >
+              <img src={claire}    className="img-fluid"
+                alt=""
+                data-aos="zoom-out"
+                data-aos-delay="300" />
               {/* <div className="call-us position-absolute"> */}
                 {/* <h4>Qui suis-je ?</h4> */}
                 {/* <p>06 00 00 00 00</p> */}
