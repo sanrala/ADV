@@ -1,21 +1,80 @@
-import React from "react";
-// import claire from "../../assets/img/claire2.JPG";
+import React, { useRef, useState } from "react";
+// import axios from 'axios';
+import emailjs from '@emailjs/browser';
+import Button from '@mui/material/Button';
+import Snackbar from '@mui/material/Snackbar';
+import Alert from '@mui/material/Alert';
 
+// import ReportCompleteSnackbar from './ReportComplete'
 import "../../../src/css/main.css";
 
 import "../../assets/vendor/animate.css/animate.min.css";
 import "../../assets/vendor/bootstrap/css/bootstrap.min.css";
 import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css";
 
-// import "../../assets/vendor/swiper/swiper-bundle.min.css";
 
 export default function Contact() {
+  const [open, setOpen] = React.useState(false);
+  const [message, setMessage] = useState('');
+  const [error, setError] = useState('');
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+
+    setOpen(false);
+  };
+
+    // const captchaRef = useRef(null)
+
+  const [status, setStatus] = useState('');
+
+  const form = useRef()
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_h3qb8nt', 'template_4bi99yg', form.current, '91QpqJeg3KN8HcqMl')
+      .then((result) => {
+          console.log(result.text);
+          setStatus('SUCCESS');
+          setMessage(  <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+            <Alert
+              onClose={handleClose}
+              severity="success"
+              variant="filled"
+              sx={{ width: '100%' }}
+            >     Votre message a été envoyé avec succès !
+            </Alert>
+          </Snackbar>);
+        setError('');
+          
+      }, (error) => {
+          console.log(error.text);
+          // const errorSend = "Oops, le message n'a pas été envoyé"
+          setMessage('');
+          setError(<Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+            <Alert
+              onClose={handleClose}
+              severity="warning"
+              variant="filled"
+              sx={{ width: '100%' }}
+            >     Votre message n'a pas été envoyé !
+            </Alert>
+          </Snackbar>);
+      });
+      e.target.reset();
+  };
 
     const MapStyle = {
         width: "100%",
         height: 500
       };
-  return (
+  return (  <React.Fragment>
     <div>
    <section id="Contact" className="contact section-bg">
       <div className="container" data-aos="fade-up">
@@ -86,7 +145,8 @@ export default function Contact() {
 
         </div>
 
-        <form action="forms/contact.php" method="post" role="form" className="php-email-form p-3 p-md-4">
+        <form   onSubmit={sendEmail}
+              ref={form} action="forms/contact.php" method="post" role="form" className="php-email-form p-3 p-md-4">
           <div className="row">
             <div className="col-xl-6 form-group">
               <input type="text" name="name" className="form-control" id="name" placeholder="Nom et Prénom" required/>
@@ -106,12 +166,13 @@ export default function Contact() {
             <div className="error-message"></div>
             <div className="sent-message">Votre message a bien été envoyé. Merci!</div>
           </div>
-          <div className="text-center"><button type="submit">Envoyer</button></div>
+          <div className="text-center"><button onClick={handleClick} type="submit">Envoyer</button></div>
         </form>
-
-
+        {message && <p>{message}</p>}
+      {error && <p>{error}</p>}
+      
       </div>
     </section>
-    </div>
+    </div></React.Fragment>
   );
 }

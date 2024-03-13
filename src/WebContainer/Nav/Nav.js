@@ -80,8 +80,8 @@ export default function Nav() {
       >
         <div className="container d-flex align-items-center justify-content-between">
           <a
-            href="index.html"
-            className="logo d-flex align-items-center me-auto me-lg-0"
+            href=""
+            className="Accueil logo d-flex align-items-center me-auto me-lg-0"
           >
             <img src={logo} alt="ADV-Bureautique-solutions" />
           </a>
