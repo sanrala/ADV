@@ -1693,6 +1693,16 @@ section {
   text-decoration: none;
 }
 
+.mentions {
+ font-size: 15px;
+ overflow:scroll;
+  max-height: 500px;
+ 
+}
+
+.mentions p {
+  margin: 30px;
+}
 .navbar-default {
   transition: all 0.5s ease-in-out;
   background-color: tr;
