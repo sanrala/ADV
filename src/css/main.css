@@ -1693,6 +1693,12 @@ section {
   text-decoration: none;
 }
 
+.footer button {
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+}
+
 .mentions {
  font-size: 15px;
  overflow:scroll;
@@ -1702,6 +1708,7 @@ section {
 
 .mentions p {
   margin: 30px;
+
 }
 .navbar-default {
   transition: all 0.5s ease-in-out;

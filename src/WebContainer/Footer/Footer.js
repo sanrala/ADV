@@ -21,7 +21,7 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 1500,
+  width: 500,
 
   bgcolor: 'background.paper',
   border: '2px solid #000',
@@ -142,18 +142,18 @@ export default function Footer() {
             Mentions Légales
           </Typography> */}
           <Typography id="keep-mounted-modal-description" sx={{ mt: 4 }}>
-            <div className="mentions">
+            <div className="mentions d-flex flex-column">
          <h4> 1. Présentation du site.</h4>
  <p> En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site ADV-Bureautique.fr l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :
-
+<br />
  Propriétaire : Claire MAURO – 193, rue de la Jambe de Bois 62470 Calonne-Ricouart
-
+<br />
  Créateur : Claire MAURO - ADV-Bureautique.fr
-
+<br />
  Responsable publication : Claire MAURO
-
+<br />
  Webmaster : Claire MAURO – Claire.mauro@ADV-Bureautique.fr
-
+<br />
  Hébergeur : Vercel - 440 N Barranca Ave #4133, Covina, CA 91723</p>
 
 
