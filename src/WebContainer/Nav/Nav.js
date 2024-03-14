@@ -52,11 +52,12 @@ function MyVerticallyCenteredModal(props) {
           </div>
         </div>
         <p className="maj">
-          *Majoration de 25% si prestations urgentes réalisées le soir après
+        <i>* Majoration de 25% si prestations urgentes réalisées le soir après
           18h30 pour le lendemain ainsi que pour toute prestation effectuée le
           Samedi <br />
-          Majoration de 50% pour tout travail effectué le dimanche et jours
-          fériés.
+             Majoration de 50% pour tout travail effectué le dimanche et jours
+          fériés. <br />
+         TVA non applicable selon l’article 293 B du Code Général des Impôts.</i>
         </p>
       </Modal.Body>
 
