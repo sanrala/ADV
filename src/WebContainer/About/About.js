@@ -29,7 +29,7 @@ export default function About() {
               data-aos-delay="150"
             >
               <img 
-              src={claire}    
+              src=""    
               className="img-fluid"
                 alt=""
                 data-aos="zoom-out"
