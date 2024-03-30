@@ -1,5 +1,5 @@
 import React from "react";
-import claire from "../../assets/img/claire.jpg";
+// import claire from "../../assets/img/claire.jpg";
 
 import "../../../src/css/main.css";
 
@@ -29,7 +29,7 @@ export default function About() {
               data-aos-delay="150"
             >
               <img 
-              src=""    
+              src="https://zupimages.net/up/24/13/pcdc.jpg"    
               className="img-fluid"
                 alt=""
                 data-aos="zoom-out"
