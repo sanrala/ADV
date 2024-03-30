@@ -1,5 +1,5 @@
 import React from "react";
-import claire from "../../assets/img/claire.JPG";
+import claire from "../../assets/img/claire.jpg";
 
 import "../../../src/css/main.css";
 

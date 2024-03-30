@@ -29,35 +29,7 @@ const style = {
   p: 5,
 };
 
-// // import "../../assets/vendor/swiper/swiper-bundle.min.css";
-// function MyVerticallyCenteredModal(props) {
-//   return (
-//     <Modal
-//       {...props}
-//       size="lg"
-//       aria-labelledby="contained-modal-title-vcenter"
-//       centered
-//     >
-//       <Modal.Header closeButton>
-//         <Modal.Title  id="contained-modal-title-vcenter">Mentions légales</Modal.Title>
-//       </Modal.Header>
-//       <Modal.Body className=" section-bg">
-      
-//       <div className="d-flex">
 
-// <p>
-
-
-// 
-// </p></div>
-//       </Modal.Body>
-
-//       <Modal.Footer className="section-bg">
-//         <Button className="bg-danger" onClick={props.onHide}>Fermer</Button>
-//       </Modal.Footer>
-//     </Modal>
-//   );
-// }
 
 export default function Footer() {
 
