@@ -1,5 +1,5 @@
 import React from "react";
-// import claire from "../../assets/img/claire.JPG";
+import claire from "../../assets/img/claire.jpg";
 
 import "../../../src/css/main.css";
 
@@ -28,12 +28,12 @@ export default function About() {
               data-aos="fade-up"
               data-aos-delay="150"
             >
-              {/* <img 
+              <img 
               src={claire}    
               className="img-fluid"
                 alt=""
                 data-aos="zoom-out"
-                data-aos-delay="300" /> */}
+                data-aos-delay="300" />
               {/* <div className="call-us position-absolute"> */}
                 {/* <h4>Qui suis-je ?</h4> */}
                 {/* <p>06 00 00 00 00</p> */}
