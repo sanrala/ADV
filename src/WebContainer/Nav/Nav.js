@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/img/logo_ADV.png";
+import logo from "./../../assets/img/logo.png";
 import main from "../../assets/img/main.jpg";
 import Burger from "./Burger";
 import "../../../src/css/main.css";
@@ -86,7 +86,9 @@ export default function Nav() {
           >
             <img src={logo} alt="ADV-Bureautique-solutions" />
           </a>
-
+          <svg width="100" height="100" viewBox="0 0 100 100">
+        {/* Incluez le contenu SVG */}
+        <use xlinkHref={logo} /> </svg>
           <nav id="navbar" className="navbar">
             <ul>
               <li>
