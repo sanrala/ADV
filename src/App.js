@@ -1,6 +1,6 @@
 import "./App.css";
 import Nav from "./WebContainer/Nav/Nav";
-
+import Price from "./WebContainer/Price/Price";
 import About from "./WebContainer/About/About";
 import Avantage from "./WebContainer/Avantage/Avantage";
 import Presta from "./WebContainer/Presta/Presta";
@@ -17,6 +17,7 @@ function App() {
         <About />
         <Avantage />
         <Presta />  
+        <Price/>
         <Contact />
       </main>
       <Footer />

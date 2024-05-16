@@ -76,7 +76,7 @@ export default function Contact() {
       };
   return (  <React.Fragment>
     <div>
-   <section id="Contact" className="contact section-bg">
+   <section id="Contact" className="contact ">
       <div className="container" data-aos="fade-up">
 
         <div className="section-header">
