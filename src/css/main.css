@@ -2033,6 +2033,9 @@ section {
   flex-direction: row;
   justify-content: center;
 }
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  color: red;
+}
 .pricing h3 {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
@@ -2109,6 +2112,7 @@ section {
   transition: 0.3s;
   border: 2px solid #c8cedc;
   color: #6c7c9f;
+  text-decoration: none;
 }
 
 .pricing .btn-buy:hover {

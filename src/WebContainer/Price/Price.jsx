@@ -74,12 +74,14 @@ function Price(props) {
       <div className="section-header">
           <h2>Tarifs</h2>
           <p>Des tarifs selon <span>vos besoins</span></p>
+          <div class="">
+         
+            
 
- <Stack spacing={2} direction="row">
-      <ColorButton variant="contained" onClick={handleOpen}> <LocalOfferIcon/>     Offre de bienvenue</ColorButton>
+ <Button class="btn-buy" onClick={handleOpen}> <LocalOfferIcon/>     Offre de bienvenue</Button>
  
-    </Stack>
 
+    </div>
       <Modal
         open={open}
         onClose={handleClose}
