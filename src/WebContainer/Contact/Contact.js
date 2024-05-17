@@ -116,7 +116,7 @@ export default function Contact() {
               <i className="icon bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email </h3>
-                <p>claire.mauro@adv.com</p>
+                <p>contact@adv-bureautique.fr</p>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function Contact() {
               <i className="icon bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Téléphone</h3>
-                <p>06 00 00 00 00</p>
+                <p>06 52 58 80 77</p>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@ export default function Contact() {
               <div>
                 <h3>Horaires d'ouverture</h3>
                 <div><strong>Du Lundi au Vendredi:</strong> 09h - 17h <br />   
-                  <strong>Samedi :</strong> Fermé
+                
                 </div>
               </div>
             </div>

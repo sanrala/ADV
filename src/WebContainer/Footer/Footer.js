@@ -61,8 +61,8 @@ export default function Footer() {
       <div>
         <h4>Contact</h4>
         <p>
-          <strong>téléphone:</strong> 06 00 00 00 00<br/>
-          <strong>Email:</strong> claire.mauro@adv.com<br/>
+          <strong>téléphone:</strong> 06 52 58 80 77<br/>
+          <strong>Email:</strong> contact@adv-bureautique.fr<br/>
         </p>
       </div>
     </div>
@@ -73,7 +73,7 @@ export default function Footer() {
       <h4>Horaires</h4>
         <p>
           <strong>Lundi au Vendredi: 9h</strong> - 17h<br/>
-          Samedi et Dimanche: Fermé
+
         </p>
       </div>
     </div>
@@ -84,8 +84,8 @@ export default function Footer() {
       <h4>Suivez moi</h4>
       <div className="social-links d-flex  justify-content-center">
         
-        <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-        <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61557492664606&locale=fr_FR" className="facebook"><i className="bi bi-facebook"></i></a>
+     
         <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
       </div>
     </div>
