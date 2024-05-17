@@ -62,64 +62,7 @@ const Ul = styled.ul`
   }
 `;
 
-function MyVerticallyCenteredModal(props) {
-  return (
-    <Modal 
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header  closeButton>
-        <Modal.Title id="contained-modal-title-vcenter" >
-          Tarifs
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body className="section-bg" >
-        {/* <h4>Tarifs</h4> */}
-        <div className="do d-flex flex-column  align-items-start">
-          <p>
-            <i className=" bi bi-check2-all text-danger"></i> A distance : 30€
-            HT/h*.
-          </p>
-          <p>
-            <i className="bi bi-check2-all text-danger"></i> Sur site : 30€ HT/h
-            + 0.66€ /Km*.
-          </p>
-          <div className="gift">
-            <p className="bonus ">
-              <i class="gift bi bi-gift text-danger"></i>
-              Offre de bienvenue: 10% de remise sur votre première facture.
-            </p>
-          </div>
-          <div className="gift">
-            <p className="bonus ">
-              <i class="gift bi bi-gift text-danger"></i>
-              Offre de parrainage: 10% de remise pour vous sur votre prochaine
-              facture et 10% pour votre filleul sur sa première facture.
-            </p>
-          </div>
-        </div>
-        <p className="maj">
-        <i> *Majoration de 25% si prestations urgentes réalisées le soir après
-          18h30 pour le lendemain ainsi que pour toute prestation effectuée le
-          Samedi <br />
-          Majoration de 50% pour tout travail effectué le dimanche et jours
-          fériés.<br />
-         TVA non applicable selon l’article 293 B du Code Général des Impôts.</i>
-        </p>
-      </Modal.Body>
-    
-  
-               
-   
-   
-      <Modal.Footer className="section-bg" >
-        {/* <Button className="btn-book-a-table" onClick={props.onHide}>Close</Button> */}
-      </Modal.Footer>
-    </Modal>
-  );
-}
+
 
 const RightNav = ({ open }) => {
   const [modalShow, setModalShow] = React.useState(false);
@@ -139,12 +82,10 @@ const RightNav = ({ open }) => {
                 <a href="#Prestations">Prestations</a>
               </li>
               <li>
-                <a href="#Tarifs" variant="primary" onClick={() => setModalShow(true)}>Tarifs</a>
-             
-                <MyVerticallyCenteredModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
+              <a
+                  href="#pricing">
+                  Tarifs{" "}
+                </a>
               </li>
               <li>
                 <a href="#Contact">Contact</a>

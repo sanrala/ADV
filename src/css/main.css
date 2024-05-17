@@ -147,7 +147,7 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
-
+ 
   .breadcrumbs h2 {
     margin-bottom: 10px;
   }
@@ -456,6 +456,7 @@ section {
   .mobile-nav-hide {
     display: none;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -473,6 +474,8 @@ section {
     transition: 0.3s;
     z-index: 9997;
   }
+ 
+ 
   .header .logo img {
     max-height: 50px;
     margin-right: 6px;
@@ -809,6 +812,8 @@ section {
   .why-us .icon-box:hover {
     transform: scale(1.1);
   }
+  
+  
 }
 
 /*--------------------------------------------------------------
@@ -824,6 +829,7 @@ section {
   .stats-counter {
     background-attachment: fixed;
   }
+  
 }
 
 .stats-counter .stats-item {
@@ -1050,6 +1056,7 @@ section {
   .events .event-item {
     min-height: 500px;
   }
+  
 }
 
 .events .event-item:before {
@@ -1088,6 +1095,7 @@ section {
     border-right: 1px solid rgba(255, 255, 255, 0.5);
     z-index: 1;
   }
+
 }
 
 .events .swiper-pagination {
@@ -1370,6 +1378,9 @@ section {
     z-index: 1;
     transform: scale(1.2);
   }
+  
+ 
+
 }
 
 /*--------------------------------------------------------------
@@ -1762,6 +1773,7 @@ section {
   .navbar-default.navbar-reduce .nav-item {
     margin-left: 15px;
   }
+
 }
 
 .navbar-default.navbar-trans .nav-link,
@@ -2009,8 +2021,18 @@ section {
   position: relative;
   overflow: hidden;
   height: 60vh;
-}
 
+}
+.css-pl8gqh-MuiStack-root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+}
 .pricing h3 {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
@@ -2048,6 +2070,9 @@ section {
   text-align: center;
   line-height: 20px;
   font-size: 14px;
+  Display: flex;
+    flex-direction: column;
+    align-items:flex-start;
 }
 
 .pricing ul li {

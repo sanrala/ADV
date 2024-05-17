@@ -29,14 +29,7 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Body className=" section-bg">
         {/* <h4>Tarifs</h4> */}
         <div className="do d-flex flex-column  align-items-start">
-          <p>
-            <i className=" bi bi-check2-all text-danger"></i> A distance : 30€
-            HT/h*.
-          </p>
-          <p>
-            <i className="bi bi-check2-all text-danger"></i> Sur site : 30€ HT/h
-            + 0.66€ /Km*.
-          </p>
+  
           <div className="gift">
             <p className="bonus ">
               <i class="gift bi bi-gift text-danger"></i>
@@ -106,17 +99,11 @@ export default function Nav() {
 
               <li>
                 <a
-                  href="#Tarifs"
-                  variant="primary"
-                  onClick={() => setModalShow(true)}
-                >
+                  href="#pricing">
                   Tarifs{" "}
                 </a>
               </li>
-              <MyVerticallyCenteredModal
-                show={modalShow}
-                onHide={() => setModalShow(false)}
-              />
+             
               <li>
                 <a href="#Contact">Contact</a>
               </li>

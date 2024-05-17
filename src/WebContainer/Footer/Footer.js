@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Condition from "./../Condition/Condition"
 // import Button from 'react-bootstrap/Button';
 // import Modal from 'react-bootstrap/Modal';
 
@@ -28,7 +28,6 @@ const style = {
   boxShadow: 24,
   p: 5,
 };
-
 
 
 export default function Footer() {
@@ -200,6 +199,7 @@ export default function Footer() {
           </Typography>
         </Box>
       </Modal>
+      <Condition/>
     {/* <a href=""  variant="primary"
                   onClick={() => setModalShow(true)} >Mentions Légales</a>
   <MyVerticallyCenteredModal
