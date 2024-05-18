@@ -38,7 +38,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_1glopon', 'template_4bi99yg', form.current, '91QpqJeg3KN8HcqMl')
+    emailjs.sendForm('service_1glopon', 'template_lltcw15', form.current, '91QpqJeg3KN8HcqMl')
       .then((result) => {
           console.log(result.text);
           setStatus('SUCCESS');
