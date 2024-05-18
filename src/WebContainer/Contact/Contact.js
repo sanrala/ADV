@@ -38,7 +38,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_h3qb8nt', 'template_4bi99yg', form.current, '91QpqJeg3KN8HcqMl')
+    emailjs.sendForm('service_1glopon', 'template_4bi99yg', form.current, '91QpqJeg3KN8HcqMl')
       .then((result) => {
           console.log(result.text);
           setStatus('SUCCESS');
@@ -146,7 +146,7 @@ export default function Contact() {
         </div>
 
         <form   onSubmit={sendEmail}
-              ref={form} action="forms/contact.php" method="post" role="form" className="php-email-form p-3 p-md-4">
+              ref={form} action="" method="post" role="form" className="php-email-form p-3 p-md-4">
           <div className="row">
             <div className="col-xl-6 form-group">
               <input type="text" name="name" className="form-control" id="name" placeholder="Nom et Prénom" required/>
