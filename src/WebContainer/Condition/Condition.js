@@ -40,8 +40,8 @@ function Condition() {
           <Typography id="keep-mounted-modal-description" sx={{ mt: 4 }}>
             <div className="mentions d-flex flex-column text-justify">
          <h4> 1/ GÉNÉRALITÉS</h4>
- <p > ADV BUREAUTIQUE &amp; SOLUTIONS, numéro SIRET : xxx xxx xxx, représentée par Claire MAURO, ci-
-dénommée après « le prestataire » est une entreprise spécialisée dans le service et le conseil
+ <p >ADV BUREAUTIQUE &amp; SOLUTIONS, numéro SIRET : 93004366600013, représentée par Claire MAURO,
+ci-dénommée après « le prestataire » est une entreprise spécialisée dans le service et le conseil
 administratif à destination des entreprises, ci-dénommées après « le client ». Le siège social est
 établi au 193, rue Anatole France à CAMBLAIN-CHÂTELAIN (62470).</p>
 
@@ -137,7 +137,7 @@ informatiques dues aux versions de logiciels ou système d’exploitation utilis
  <h4>9/ DROIT APPLICABLE</h4>
  <p>Les présentes Conditions Générales de Vente sont soumises au droit français. A défaut de résolution
 amiable, tout litige relatif à l’interprétation ou à l’exécution de ces CGV sera porté devant le Tribunal
-xxxxxxx.
+de commerce d’Arras.
  </p>
 
 </div>

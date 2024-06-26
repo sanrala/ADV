@@ -126,7 +126,7 @@ export default function Contact() {
               <i className="icon bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Téléphone</h3>
-                <p>06 52 58 80 77</p>
+                <p>06 70 28 97 72</p>
               </div>
             </div>
           </div>

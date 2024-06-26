@@ -61,7 +61,7 @@ export default function Footer() {
       <div>
         <h4>Contact</h4>
         <p>
-          <strong>téléphone:</strong> 06 52 58 80 77<br/>
+          <strong>téléphone:</strong> 06 70 28 97 72<br/>
           <strong>Email:</strong> contact@adv-bureautique.fr<br/>
         </p>
       </div>
@@ -117,13 +117,13 @@ export default function Footer() {
          <h4> 1. Présentation du site.</h4>
  <p > En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site ADV-Bureautique.fr l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :
 <br />
- Propriétaire : Claire MAURO – 193, rue de la Jambe de Bois 62470 Calonne-Ricouart
+ Propriétaire : Claire MAURO – 193, rue Anatole France 62470 Camblain-Châtelain
 <br />
  Créateur : Claire MAURO - ADV-Bureautique.fr
 <br />
  Responsable publication : Claire MAURO
 <br />
- Webmaster : Claire MAURO – Claire.mauro@ADV-Bureautique.fr
+ Webmaster : Sébastien MAURO – sebastien.mauro@gmail.fr
 <br />
  Hébergeur : Vercel - 440 N Barranca Ave #4133, Covina, CA 91723</p>
 
