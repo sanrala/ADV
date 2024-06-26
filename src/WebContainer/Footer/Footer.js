@@ -86,7 +86,7 @@ export default function Footer() {
         
         <a href="https://www.facebook.com/profile.php?id=61557492664606&locale=fr_FR" className="facebook" target="_blank"><i className="bi bi-facebook"></i></a>
      
-        <a href="#" className="linkedin" target="_blank"><i className="bi bi-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/claire-mauro-108625196/" className="linkedin" target="_blank"><i className="bi bi-linkedin"></i></a>
       </div>
     </div>
     </div>
