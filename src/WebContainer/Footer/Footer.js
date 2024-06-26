@@ -84,9 +84,9 @@ export default function Footer() {
       <h4>Suivez moi</h4>
       <div className="social-links d-flex  justify-content-center">
         
-        <a href="https://www.facebook.com/profile.php?id=61557492664606&locale=fr_FR" className="facebook"><i className="bi bi-facebook"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61557492664606&locale=fr_FR" className="facebook" target="_blank"><i className="bi bi-facebook"></i></a>
      
-        <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
+        <a href="#" className="linkedin" target="_blank"><i className="bi bi-linkedin"></i></a>
       </div>
     </div>
     </div>
