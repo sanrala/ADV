@@ -68,17 +68,17 @@ function Price(props) {
     const handleClose = () => setOpen(false);
   return (
     <div>
-        <section id="pricing" class="pricing section-bg">
-      <div class="container">
+        <section id="pricing" className="pricing section-bg">
+      <div className="container">
 
       <div className="section-header">
           <h2>Tarifs</h2>
           <p>Des tarifs selon <span>vos besoins</span></p>
-          <div class="">
+          <div className="">
          
             
 
- <Button class="btn-buy" onClick={handleOpen}> <LocalOfferIcon/>     Offre de bienvenue</Button>
+ <Button className="btn-buy" onClick={handleOpen}> <LocalOfferIcon/>     Offre de bienvenue</Button>
  
 
     </div>
@@ -92,7 +92,7 @@ function Price(props) {
           <Typography id="modal-modal-title" variant="h6" component="h2">
           <div className="gift">
             <p className="bonus ">
-              <i class="gift bi bi-gift text-danger"></i>
+              <i className="gift bi bi-gift text-danger"></i>
               Offre de bienvenue: 10% de remise sur votre première facture.
             </p>
           </div>
@@ -100,7 +100,7 @@ function Price(props) {
           <Typography id="modal-modal-description" sx={{ mt: 6 }}>
           <div className="gift">
             <p className="bonus ">
-              <i class="gift bi bi-gift text-danger"></i>
+              <i className="gift bi bi-gift text-danger"></i>
               Offre de parrainage: 10% de remise pour vous sur votre prochaine
               facture et 10% pour votre filleul sur sa première facture.
             </p>
@@ -120,10 +120,10 @@ function Price(props) {
       </Modal>
         </div>
 
-        <div class="row"     >
+        <div className="row"     >
 
-          <div class="col-lg-3 col-md-6">
-            <div class="box featured">
+          <div className="col-lg-3 col-md-6">
+            <div className="box featured">
               <h3>PACK « BUREAUTIQUE » </h3>
               <h4>4 h<span> / mois*</span></h4>
               <h4>100 € HT<span> / mois*</span></h4>
@@ -134,14 +134,14 @@ function Price(props) {
                 <li ><i  className="bi bi-check2-all text-danger"></i> Classement </li>
                 
               </ul>
-              {/* <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+              {/* <div className="btn-wrap">
+                <a href="#" className="btn-buy">Buy Now</a>
               </div> */}
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-            <div class="box featured">
+          <div className="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div className="box featured">
               <h3>PACK « RELATION CLIENT »</h3>
               <h4>16 h<span> / mois*</span></h4>
               <h4>450 € HT<span> / mois*</span></h4>
@@ -157,8 +157,8 @@ function Price(props) {
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-            <div class="box featured">
+          <div className="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div className="box featured">
               <h3>PACK « ADV »</h3>
               <h4>30 h<span> / mois*</span></h4>
               <h4>900 € HT<span> / mois*</span></h4>
@@ -173,9 +173,9 @@ function Price(props) {
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-            <div class="box featured">
-              {/* <span class="advanced">Le plus vendu</span> */}
+          <div className="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div className="box featured">
+              {/* <span className="advanced">Le plus vendu</span> */}
               <h3>PACK « SUR-MESURE »</h3>
               <h4> 32 € HT<span> / Heure*</span></h4>
              
