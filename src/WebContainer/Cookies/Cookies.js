@@ -33,7 +33,7 @@ const CookieBar = () => {
           Accepter
         </a>
         
-        <a href="" className="cookie-consent-banner__cta cookie-consent-banner__cta--secondary" onClick={declineCookies}>
+        <a href="#" className="cookie-consent-banner__cta cookie-consent-banner__cta--secondary" onClick={declineCookies}>
           Refuser
         </a>
       </div>
