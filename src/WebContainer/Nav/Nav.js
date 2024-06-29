@@ -127,8 +127,8 @@ export default function Nav() {
               <h2 data-aos="fade-up">
                 ADV Bureautique <br />& Solutions
               </h2>
-              <p data-aos="fade-up" data-aos-delay="100">
-                Déléguez, vous y gagnerez !
+              <p className="text-danger" data-aos="fade-up" data-aos-delay="100"> <i>
+                Déléguez, vous y gagnerez !</i>
               </p>
               <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
                 <a href="#book-a-table" className="btn-book-a-table">

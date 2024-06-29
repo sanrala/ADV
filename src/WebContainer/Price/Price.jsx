@@ -89,7 +89,7 @@ function Price(props) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
+          <Typography id="modal-modal-description" sx={{ mt: 6 }}>
           <div className="gift">
             <p className="bonus ">
               <i className="gift bi bi-gift text-danger"></i>

@@ -105,8 +105,9 @@ export default function Contact() {
             <div className="info-item  d-flex align-items-center">
               <i className="icon bi bi-map flex-shrink-0"></i>
               <div>
-                <h3>Notre adresse</h3>
-                <p>62470 Camblain-Châtelain</p>
+                <h3>Adresse</h3>
+                <p>193 rue Anatole France <br />
+                  62470 Camblain-Châtelain</p>
               </div>
             </div>
           </div>
@@ -136,7 +137,7 @@ export default function Contact() {
               <i className="icon bi bi-share flex-shrink-0"></i>
               <div>
                 <h3>Horaires d'ouverture</h3>
-                <div><strong>Du Lundi au Vendredi:</strong> 09h - 17h <br />   
+                <div><strong>Du Lundi au Vendredi:</strong> 16h - 19h <br />   
                 
                 </div>
               </div>

@@ -49,7 +49,7 @@ export default function Footer() {
       <div>
         <h4>Adresse</h4>
         <p>
-          
+        193 rue Anatole France <br />
           62470 CAMBLAIN-CHATELAIN <br/> FRANCE<br/>
         </p>
       </div>
@@ -72,7 +72,7 @@ export default function Footer() {
       <div >
       <h4>Horaires</h4>
         <p>
-          <strong>Lundi au Vendredi: 9h</strong> - 17h<br/>
+          <strong>Lundi au Vendredi: </strong> 16h - 19h<br/>
 
         </p>
       </div>
@@ -109,9 +109,7 @@ export default function Footer() {
         aria-describedby="keep-mounted-modal-description"
       >
         <Box sx={style}>
-          {/* <Typography id="keep-mounted-modal-title" variant="h6" component="h2">
-            Mentions Légales
-          </Typography> */}
+ 
           <Typography id="keep-mounted-modal-description" sx={{ mt: 4 }}>
             <div className="mentions d-flex flex-column text-justify">
          <h4> 1. Présentation du site.</h4>
