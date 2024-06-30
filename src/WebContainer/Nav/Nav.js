@@ -131,7 +131,7 @@ export default function Nav() {
                 Déléguez, vous y gagnerez !</i>
               </p>
               <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
-                <a href="#book-a-table" className="btn-book-a-table">
+                <a href="#Contact" className="btn-book-a-table">
                   Contactez-moi
                 </a>
               </div>
