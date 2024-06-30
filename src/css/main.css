@@ -113,6 +113,10 @@ section {
   .breadcrumbs {
     margin-top: 70px;
   }
+  .css-1aeycle {
+    width: 400px;
+    }
+    
 }
 
 
@@ -147,7 +151,9 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
- 
+  .css-1aeycle {
+    width: 400px;
+    }
   .breadcrumbs h2 {
     margin-bottom: 10px;
   }
@@ -265,6 +271,10 @@ section {
   .header {
     height: 70px;
   }
+  .css-1aeycle {
+    width: 400px;
+    }
+    
 }
 
 .header.sticked {
@@ -877,6 +887,10 @@ section {
     margin: 0 10px;
     padding: 10px 0;
   }
+  .css-1aeycle {
+    width: 400px;
+    }
+    
 }
 
 .menu .nav-link i {
@@ -895,6 +909,10 @@ section {
   .menu .nav-link h4 {
     font-size: 16px;
   }
+  .css-1aeycle {
+    width: 400px;
+    }
+    
 }
 
 .menu .nav-link:hover {
@@ -1056,7 +1074,10 @@ section {
   .events .event-item {
     min-height: 500px;
   }
-  
+  .css-1aeycle {
+    width: 400px;
+    }
+    
 }
 
 .events .event-item:before {
@@ -1232,7 +1253,12 @@ section {
 @media (max-width: 575px) {
   .book-a-table .php-email-form {
     padding: 20px;
+
   }
+  .css-1aeycle {
+    width: 400px;
+    }
+    
 }
 
 .book-a-table .php-email-form h3 {
