@@ -51,7 +51,7 @@ export default function About() {
                   client et l’administration des ventes (devis, commandes,
                   facturation) sont des missions régulières qui m’ont été
                   demandées lors de mon parcours professionnel. J’ai travaillé
-                  dans différents secteurs d'activités :   
+                  dans différents secteurs d'activité :   
                  
                 </p>
                 <ul >
