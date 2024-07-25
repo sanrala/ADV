@@ -137,8 +137,8 @@ export default function Contact() {
               <i className="icon bi bi-share flex-shrink-0"></i>
               <div>
                 <h3>Horaires d'ouverture</h3>
-                <div><strong>Du Lundi au Vendredi:</strong> 16h - 19h <br />   
-                
+                <div><strong>Du Lundi au Vendredi:</strong> 8h - 18h <br />   
+                <strong>Samedi :</strong> 9h - 16h 
                 </div>
               </div>
             </div>

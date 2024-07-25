@@ -68,7 +68,8 @@ export default function Footer() {
       <div className="ms-25">
         <h4>    <i className="bi bi-clock icon"></i>Horaires</h4>
         <p>
-          <strong>Lundi au Vendredi:</strong> 16h - 19h<br />
+        <strong>Du Lundi au Vendredi:</strong> 8h - 18h <br />   
+                <strong>Samedi :</strong> 9h - 16h 
         </p>
       </div>
     </div>
