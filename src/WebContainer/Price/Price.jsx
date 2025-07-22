@@ -129,7 +129,7 @@ function Price(props) {
                             <div className="box featured">
                                 <h3>PACK « BUREAUTIQUE » </h3>
                                 <h4>4 h<span> / mois*</span></h4>
-                                <h4>100 € HT<span> / mois*</span></h4>
+                                <h4>120 € HT<span> / mois*</span></h4>
                                 <ul>
                                     <li><i className="bi bi-check2-all text-danger"></i> Tri du courrier</li>
                                     <li><i className="bi bi-check2-all text-danger"></i> Rédaction et mise en forme <br /> de documents/courriels</li>
@@ -143,7 +143,7 @@ function Price(props) {
                             <div className="box featured">
                                 <h3>PACK « RELATION CLIENT »</h3>
                                 <h4>16 h<span> / mois*</span></h4>
-                                <h4>450 € HT<span> / mois*</span></h4>
+                                <h4>500 € HT<span> / mois*</span></h4>
                                 <ul>
                                     <li><i className="bi bi-check2-all text-danger"></i> Gestion de la messagerie</li>
                                     <li><i className="bi bi-check2-all text-danger"></i> Saisie des devis </li>
@@ -159,7 +159,7 @@ function Price(props) {
                             <div className="box featured">
                                 <h3>PACK « ADV »</h3>
                                 <h4>30 h<span> / mois*</span></h4>
-                                <h4>900 € HT<span> / mois*</span></h4>
+                                <h4>1000 € HT<span> / mois*</span></h4>
                                 <ul>
                                     <li><i className="bi bi-check2-all text-danger"></i> Pack « Relation Client »</li>
                                     <li><i className="bi bi-check2-all text-danger"></i> Demandes de prix fournisseurs</li>
@@ -173,7 +173,7 @@ function Price(props) {
                         <div className="col-lg-3 col-md-6 mt-4 mt-lg-0">
                             <div className="box featured">
                                 <h3>PACK « SUR-MESURE »</h3>
-                                <h4> 32 € HT<span> / Heure*</span></h4>
+                                <h4> 35 € HT<span> / Heure*</span></h4>
                                 <ul>
                                     <li><i className="bi bi-check2-all text-danger"></i> Nous construisons ensemble une liste de tâches 
 en fonction de vos besoins.</li>
